@@ -73,7 +73,7 @@ const authController = async (req, res) => {
       message: "auth error",
       success: false,
       error,
-    });
+    } );
   }
 };
 
